@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+jobs/
+snapshots/
+metrics/
+health.json
+health.json.wlock

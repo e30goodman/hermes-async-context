@@ -1,0 +1,10 @@
+name: asinccontext
+version: 1.1.0
+description: >-
+  Async Context Engine — background, non-blocking context summarization
+  through auxiliary.compression (subprocess worker). Replaces the built-in
+  ContextCompressor: when the threshold is crossed, should_compress starts a
+  background job and does not block the turn; the result is picked up on a
+  later turn through a file registry of jobs.
+author: Artem Molodtsov (e30goodman)
+requires_hermes: ">=0.22.0"
